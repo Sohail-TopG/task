@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Metropolis&display=swap");
+
+#header {
+  font-family: 'MetropolisNF', sans-serif;
+}
+#header .heading {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1.356rem;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #007f61;
+  font-family: 'MetropolisNF', sans-serif;
+
+}
+#header .heading::before,
+#header .heading::after {
+  content: "";
+  border-top: 0.1rem double #c8c8c8;
+  align-self: center;
+}

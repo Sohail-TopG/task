@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/pages/index.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- metropolice font -->
+    <link href="https://fonts.cdnfonts.com/css/metropolis" rel="stylesheet">
+
+    <script src="scripts/data.js" defer ></script>
+    <script src="scripts/component.js" defer ></script>
+    <script src="scripts/index.js" defer ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header" role="heading">
+        <h1 class="heading">Bundle & Save</h1>
+      </header>
+      <main id="main" role="main">
+        <ul class="bundle-options">
+          <!-- <li>
+            <label class="card">
+                <input name="e" id="1" type="radio" checked="checked" />
+                One
+            </label>
+          </li> -->
+
+          <li>
+            <div class="my-card">
+              <div class="card-header">
+                <div class="check-wrapper">
+                  <input type="radio" checked="checked" />
+                </div>
+                <div class="info-wrapper">
+                  <div>
+                    <p class="name">Name</p>
+                    <p class="price">DKK 345.00</p>
+                  </div>
+                  <div>
+                    <p class="tag">Most Popular</p>
+                    <p class="off-text">40% OFF</p>
+                  </div>
+                  <p class="discount-price">
+                    <s> DKK 195.00 </s>
+                  </p>
+                </div>
+              </div>
+              <div class="card-main">
+                <div class="config-list">
+                  <div class="cl-row">
+                    <p class="cl-row-id">
+                      <span> #1 </span>
+                    </p>
+                    <div class="cl-select-wrapper">
+                      <label for="">Size</label>
+                      <select name="" id="">
+                        <option value="S">S</option>
+                      </select>
+                    </div>
+                    <div class="cl-select-wrapper">
+                      <label for="">Colour</label>
+                      <select name="" id="">
+                        <option value="Colour">Colour</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <section class="bundle-summery" role="note">
+          <span class="shipping-info"> Free 2 Day Shipping </span>
+          <span class="total-amt"> Total : DKK 360.00 </span>
+        </section>
+        <button class="add-cart-btn btn primary-btn" role="button">
+          + Add to Cart
+        </button>
+      </main>
+      <footer id="footer" role="footer">
+        <p class="footer-content"><span>&copy</span> Powered by Pumper</p>
+      </footer>
+    </div>
+  </body>
+</html>

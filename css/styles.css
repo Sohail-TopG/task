@@ -1,0 +1,4 @@
+@import url(./global.css);
+@import url(./components/layouts/shared/shared.css);
+@import url(./components/layouts/header.css);
+@import url(./components/layouts/footer.css);

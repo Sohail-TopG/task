@@ -1,0 +1,140 @@
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+.wrapper {
+  width: 100%;
+  min-height: 51.6rem;
+  min-width: 34rem;
+}
+#main {
+  margin-block-start: 1.8rem;
+  margin-block-end: 2.4rem;
+}
+#main .bundle-summery {
+  margin-block: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+  font-family: Inter;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#main .bundle-summery .total-amt {
+  color: #000;
+}
+#main .bundle-summery .shipping-info {
+  color: #007f61;
+  opacity: 0.6;
+}
+#main .add-cart-btn {
+  width: 100%;
+}
+#main .bundle-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: space-between;
+}
+
+/* card */
+/* card css --start*/
+.my-card {
+    padding: 22px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 1px solid #007f61;
+    background: #f4fbf9;
+    font-family: Inter;
+  }
+  .card-header {
+    display: flex;
+    position: relative;
+  }
+  .info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+  .check-wrapper {
+    width: 50px;
+    display: grid;
+    place-content: center;
+  }
+  .my-card .name {
+    color: #000;
+    font-family: 'MetropolisNF', sans-serif;
+    font-size: 14.461px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .my-card .price {
+    color: #000;
+    font-family: 'MetropolisNF', sans-serif;
+    font-size: 14.461px;
+    font-weight: 500;
+  }
+  .my-card .tag {
+    color: #007f61;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 5px;
+  }
+  .my-card .off-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-weight: 500;
+    text-align: right;
+  }
+  .my-card .discount-price {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    bottom: 4px;
+    width: max-content;
+    opacity: 0.3;
+  }
+  
+  .cl-row {
+    display: flex;
+    padding: 8px 22px;
+    gap: 8px;
+  }
+  .cl-row-id {
+    width: 30px;
+    display: grid;
+    place-content: center;
+  }
+  .cl-row-id > span{
+    position: relative;
+    top: 8px;
+  }
+  .cl-select-wrapper > label {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    margin-bottom: 6px;
+  }
+  .cl-select-wrapper > select {
+    width: 65.978px;
+    height: 25.306px;
+    border-radius: 1.808px;
+    border: 0.904px solid #d9d9d9;
+    background: #fff;
+    color: #000;
+    font-family: Inter;
+    font-size: 10.846px;
+    font-weight: 400;
+  }
+  /* card css --end*/
